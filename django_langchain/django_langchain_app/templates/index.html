@@ -1,0 +1,33 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chat</title>
+    <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 offset-md-2">
+                <h1 class="text-center">Chat</h1>
+                <div id="chatbox">
+                    {% for message in messages %}
+                        <b>{{ message.role }}</b>: {{ message.content }} <small>{{ message.timestamp }}</small><hr>
+                    {% empty %}
+                        <p>No messages yet.</p>
+                    {% endfor %}
+                </div>
+                <!-- Two button, one for sending the message and one to clear all history -->
+				<form method="post" action="/new_message">
+					{% csrf_token %}
+					<textarea name="content" class="form-control" placeholder="Write a message"></textarea>
+					<button type="submit" class="btn btn-primary">Send</button>
+					<button type="button" class="btn btn-danger" onclick="window.location.href='/clear'">Clear</button>
+				</form>
+			</div>
+        </div>
+    </div>
+</body>
+</html>

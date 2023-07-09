@@ -1,0 +1,42 @@
+# General gitignore for a Django project.
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local development settings
+/.env
+
+# Django development server PID file
+*.pid
+
+# Logs
+/logs/
+
+# Database
+*.sqlite3
+
+# Static files
+/staticfiles/
+
+# Media files
+/media/
+
+# Virtual environment
+/venv/
+
+# Dependency directories
+/.venv/
+/vendor/
+/node_modules/
+/bower_components/
+
+# Compiled Python files
+*.pyc
+
+# macOS
+.DS_Store
+
+# Lesson files
+lesson*.md
+*template_training.ipynb
