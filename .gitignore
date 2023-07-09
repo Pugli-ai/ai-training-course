@@ -5,7 +5,7 @@ __pycache__/
 *$py.class
 
 # Local development settings
-/.env
+.env
 
 # Django development server PID file
 *.pid

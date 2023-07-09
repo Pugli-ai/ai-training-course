@@ -10,7 +10,7 @@ Requisiti:
 ### 1. Clonare la repository
 
 ```bash
-git clone ...
+git clone https://github.com/Pugli-ai/ai-training-course.git
 ```
 ### 2. Creare il file .env
 - Rinominare il file `.env.example` in `.env`.
