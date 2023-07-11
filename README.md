@@ -1,4 +1,4 @@
-# Lesson 4: Langchain in Django
+# Langchain in Django
 
 ## Configurazione ambiente di sviluppo
 
