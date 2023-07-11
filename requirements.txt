@@ -3,7 +3,6 @@ faiss-cpu==1.7.4
 google-search-results==2.4.2
 ipykernel==6.24.0
 ipython==8.12.2
-jedi==0.18.2
 jupyter_client==8.3.0
 jupyter_core==5.3.1
 langchain==0.0.229

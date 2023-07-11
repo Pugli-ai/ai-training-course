@@ -11,7 +11,9 @@ Requisiti:
 
 ```bash
 git clone https://github.com/Pugli-ai/ai-training-course.git
+cd ai-training-course
 ```
+
 ### 2. Creare il file .env
 - Rinominare il file `.env.example` in `.env`.
 
