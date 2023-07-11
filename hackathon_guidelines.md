@@ -1,7 +1,6 @@
-# Lesson 4 Hackathon Guidelines
-*Objective*: Create a Django app that allows users to ask question about very technical papers on ChatGPT and prompting techniques.
-## Hackathon Guidelines
-Start from the Django app already implemented during this lesson. 
-You should just modify the function `handle_message` in `django_langchain_app/chat_bot.py` to add the logic to handle the questions about the papers.
+# Hackathon
+*Obiettivo*: Creare un'app Django che permetta agli utenti di fare domande su articoli molto tecnici su ChatGPT e su varie tecniche di prompting.
+## Linee Guida per l'Hackathon
+Inizia dall'app Django già implementata durante questa lezione modificando la funzione `handle_message` in `django_langchain_app/chat_bot.py` per aggiungere la logica per gestire le domande sugli articoli.
 
-The papers are in the folder `documents/hackathon`.
+Gli articoli si trovano nella cartella `documents/hackathon`.

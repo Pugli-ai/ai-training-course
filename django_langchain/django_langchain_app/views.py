@@ -1,4 +1,3 @@
-from django.http import HttpResponse
 from django.shortcuts import render
 from .models import Message
 from .chat_bot import handle_message
@@ -12,9 +11,8 @@ def index(request):
 def new_message(request):
 	# Retrieve the message from the POST request
 	content = request.POST.get('content')
-	print(content)
 
-	# Create a new message objec
+	# Create a new message object
 	message = Message(content=content, role='Human')
 
 	# Save the message to the database
