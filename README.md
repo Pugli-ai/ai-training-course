@@ -10,9 +10,8 @@ Gli articoli si trovano nella cartella `documents/hackathon`.
 ## Configurazione ambiente di sviluppo
 
 Requisiti:
-- Python 3.8 (https://www.python.org/downloads/)
+- Python >= 3.8 (https://www.python.org/downloads/)
 - Git (https://git-scm.com/downloads)
-- Node and npm (https://nodejs.org/en/download/) or Docker with docker compose (https://docs.docker.com/get-docker/)
 
 ### 1. Clonare la repository
 
